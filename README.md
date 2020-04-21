@@ -1,3 +1,16 @@
+## What is a Cipher Suite?
+A cipher suite is a set of algorithms that add cryptographic security to a network connection. There are typically four components to a cipher suite:
+
+* Key Exchange Algorithm 
+* Authentication algorithm (signature)
+* Bulk Encryption Algorithm (block cipher and mode of operation)
+* Message Authentication Algorithm
+
+Cipher suites are specified in shorthand by a string such as SRP-SHA3-256-RSA-AES-256-CBC-SHA3-256.
+
+This implies SRP-SHA3-256 as the key exchange algorithm, RSA signatures for authentication, AES-256-CBC for encryption and SHA3-256 as the MAC (used as HMAC).
+
+
 HOW TO RUN:
 
 Open a new terminal and run python -u TTP.py
