@@ -1,7 +1,10 @@
 HOW TO RUN:
 Open a new terminal and run python -u TTP.py
+
 Open a new terminal and run python -u Server.py
+
 Open a new terminal and run python -u client.py
+
 The contents in clientFile.txt should now appear in serverFile.txt
 
 NOTE:
