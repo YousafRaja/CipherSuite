@@ -24,7 +24,7 @@ The contents in clientFile.txt should now appear in serverFile.txt
 NOTE:
 - To enable debug mode, run with -O flag (i.e python -O -u client.py), in this mode it will start up faster by using pre-defined values.
 
-client.py - The client connects to the Serverand verifies the identity of the server by checking with the TTP (trusted third party). The client then reads from clientFile.txt and sends the server the encrypted contents.
+client.py - The client connects to the Server and verifies the identity of the server by checking with the TTP (trusted third party). The client then reads from clientFile.txt and sends the server the encrypted contents.
 
 clientFile.txt - The information to send to the server
 
