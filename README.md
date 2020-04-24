@@ -1,3 +1,6 @@
+## What does this show?
+One thing this shows is how digitial certificates work. When the client tries to connect to the server, the server will present its certificate which was signed by the TTP (Trusted Third Party, an entity that both the client and server trust).
+
 ## What is a Cipher Suite?
 A cipher suite is a set of algorithms that add cryptographic security to a network connection. There are typically four components to a cipher suite:
 
