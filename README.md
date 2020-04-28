@@ -1,5 +1,6 @@
 ## Summary
 When the client tries to connect to the server, the server will present its certificate which was signed by the TTP (Trusted Third Party, an entity that both the client and server trust), the client then verifies the authenticity of the certificate. Next, the client sends an encrypted message to the server which the servery decrypts and stores in a file. This project makes use of many cryptographic primitivies to show how concepts such as certificates, signatures, hashes and authentication work in pratice.
+ 
 
 ## What is a Cipher Suite?
 A cipher suite is a set of algorithms that add cryptographic security to a network connection. There are typically four components to a cipher suite:
